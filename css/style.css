@@ -1,0 +1,20 @@
+body {
+  background-image: url("file:///C:/Users/veetikolehmainen2/OneDrive%20-%20Luksia/html/img/Breaking_bad_title.png")
+}
+ol {
+  color:green;
+}
+h2 {
+  color:red;
+  text-decoration:underline;
+}
+ul {
+  color:cyan;
+  font-size:20px;
+}
+iframe {
+  float: right;
+  margin-left: -40px;
+  margin-top: -700px;
+}
+  
