@@ -1,3 +1,6 @@
+body {
+  background-image: url("img/breaking_bad.png");
+}
 ol {
   color:green;
 }
@@ -15,6 +18,3 @@ iframe {
   margin-top: -700px;
 }
   
-body {
-  background-image: url("img/breaking_bad.png");
-}
