@@ -1,6 +1,9 @@
 body {
   background-image: url("../img/breaking_bad.jpg");
 }
+header h1{
+  color:purple;
+}
 ol {
   color:green;
 }
