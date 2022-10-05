@@ -1,0 +1,52 @@
+body {
+  margin:0;
+}
+header{
+  text-align: center;
+  padding-top:5px;
+  background-color:pink;
+}
+header img{
+  border-radius: 1000px;
+  width: 500px;
+  border: 20px solid white;
+}
+header h1{
+  font-family: "Helvetica", "Arial", "sans-serif";
+  font-size: 40px;
+  color: white;
+}
+.ove{
+  float: right;
+  margin-top: -2%;
+}
+figcaption{
+  font-size: 30px;
+  color: pink;
+  padding-bottom: 10px;
+}
+ul{
+  font-size: 20px;
+}
+p {
+  font-size: 40px;
+  text-align: center;
+  font-family: impact, arial;
+}
+footer {
+  background-color: pink;
+  color: white;
+  font-size: 25px;
+  text-decoration: underline;
+  padding: 25px;
+}
+main {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+main img {
+  max-width: 100%;
+}
+a:hover{
+  background-color: cyan;
+}

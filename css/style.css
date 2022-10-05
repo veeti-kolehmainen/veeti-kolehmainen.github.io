@@ -1,5 +1,6 @@
 body {
   background-image: url("../img/breaking_bad.jpg");
+  background-attachment: fixed;
 }
 header h1{
   color:purple;
