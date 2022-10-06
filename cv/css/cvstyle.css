@@ -1,6 +1,6 @@
 body {
   padding: 2% 15% 2% 15%;
-  background-color: #E9FEFF;
+  background-color: #FFF3CA;
 }
 h1, h3 {
   text-align:center;
@@ -13,7 +13,7 @@ img {
   margin-top: -2%;
 }
 div {
-  background-color: white;
+  background-color: #FFFBF1;
   padding: 20px;
   outline: 2px solid black;
 }
