@@ -1,5 +1,5 @@
 body {
-  padding: 2% 15% 25% 15%;
+  padding: 2% 15% 2% 15%;
   background-color: #FFF3CA;
 }
 h1, h3 {
@@ -19,10 +19,9 @@ img {
   outline: 2px solid black;
 }
 .profile {
-	margin-left: 65%;
-	margin-top: -50%;
+	float: right;
 	width: 30%;
-	background-color: #FFCA99; 
-	padding: 5px;
-	outline: 2px solid black;
+	background-color: #FFF3CA; 
+	padding: 5px 10px 5px 10px;
+	outline: 1px solid black;
 }
