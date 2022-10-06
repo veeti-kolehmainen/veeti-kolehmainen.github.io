@@ -1,5 +1,5 @@
 body {
-  padding: 2% 15% 2% 15%;
+  padding: 2% 15% 25% 15%;
   background-color: #FFF3CA;
 }
 h1, h3 {
@@ -13,8 +13,16 @@ img {
   float: right;
   margin-top: -2%;
 }
-div {
+.main {
   background-color: #FFFBF1;
   padding: 20px;
   outline: 2px solid black;
+}
+.profile {
+	margin-left: 65%;
+	margin-top: -50%;
+	width: 30%;
+	background-color: #FFCA99; 
+	padding: 5px;
+	outline: 2px solid black;
 }
