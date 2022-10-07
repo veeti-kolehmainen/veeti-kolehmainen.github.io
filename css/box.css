@@ -1,7 +1,48 @@
-div{
-	background-color: red;
-	width:10%;
-	margin: 10%;
-	border: 20px solid black;
-	padding: 15%;
+body{
+	background-color:#E3FFFE;
 }
+.boxandball{
+	background-color: #007FFF;
+	box-sizing: border-box;
+	padding: 20px 70px 50px 10px;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-bottom: 100px;
+	padding-left: 30px;
+	margin: 40px;
+	border: 10px dashed black;
+	border-top: 20px solid black;
+	border-top-width: 30px;
+	border-top-color: red;
+}
+.boxer{
+	background-color: #007FFF;
+	box-sizing:border-box;
+	padding: 50px;
+	margin:0 auto;
+	margin: 100px;
+}
+h2{
+	background-color: green;
+}
+.h21{
+	font-size:60px;
+	margin:0;
+	color:white;
+	background-color: #FA8072;
+	margin: -120px 0 0 -50px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+em{
+	font-size:30px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+span{
+	font-size:30px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+input{
+	font-size:30px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+	
