@@ -1,0 +1,22 @@
+body {
+  padding: 3% 25% 0 25%;
+  background-color: #b8f2fc;
+  margin: auto;
+}
+
+#contactme {
+  font-size: 26px;
+}
+
+#list {
+  font-size: 52px;
+}
+
+footer {
+  width:100%;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  background-color:lightgrey;
+  text-align: center;
+}
