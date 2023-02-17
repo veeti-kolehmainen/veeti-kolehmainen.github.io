@@ -1,4 +1,6 @@
 body {
+  background-color: #b8f2fc;
+  margin: auto;
   padding: 3% 25% 0 25%;
 }
 
@@ -12,8 +14,10 @@ body {
 }
 
 footer {
-  background-color: lightgrey;
-  padding: 1% 26% 1% 1%;
-  position: absolute;
-  bottom: 0px;
+  width:100%;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  background-color:lightgrey;
+  text-align: center;
 }
