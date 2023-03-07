@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color:khaki;
     margin: 0;
 }
 
@@ -8,8 +8,24 @@ nav {
     color: white;
     padding: 0;
     font-size: 25px;
+    padding-left: 15px;
+    padding-right: ;
+    height: 20vh;
+    min-height: 50px;
 }
 
+span.title {
+    font-family: cursive;
+    color: rebeccapurple;
+}
+
+span.version {
+    font-size: 9px;
+    display: block;
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
 #body {
     padding: 20px;
     font-size: 18px;
@@ -19,8 +35,16 @@ nav {
 }
 
 .banner{
-    color: white;
+    color: black;
     font-family: Arial;
+    padding-bottom: 30px;
+    height: 300px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+
 }
 
 h1 {
@@ -33,19 +57,40 @@ h1 {
     color: white;
 }
 
-#content {
-    margin-top: 50px;
-    border-color: red;
-    border-width: 1px;
-    border-style: solid;
+footer, #content {
     text-align: left;
     width: calc(100% - 30px);
-    margin: 0 auto 0 auto;
+    margin: 50px auto 0 auto;
 }
 
+.float-right {
+    float: right;
+}
+
+@media(max-width: 640px) {
+    .float-right {
+        float: initial;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    body {
+      font-size: 16px;
+    }
+  }
+
+@media screen and (min-width: 780px) {
+    body {
+      font-size: 24px;
+      transition: width 2s, height 4s;
+    }
+}
 
 footer {
     margin-top: 40px;
     font-size: 14px;
-    padding: 50px;
+    text-align: center;
+    width: 100%;
 }
