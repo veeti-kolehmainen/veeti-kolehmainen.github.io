@@ -1,0 +1,87 @@
+#page-container {
+    padding: 0 15% 0 15%;
+}
+/*
+#content-wrap {
+    padding-bottom: 1rem;
+}*/
+
+body {
+    background-color: white;
+    font-family: "Sarabun";
+    height: 100%;
+    margin: 0;
+}
+
+h1, h2, p, b, th{
+    color: #101935;
+}
+
+nav {
+    background-color: #f2fdff;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: "Fjalla One";
+}
+
+#weather {
+    float:right;
+    padding: 38px 20px 50px 0;
+    background-color: white;
+    border: 1px solid #101935;
+    border-radius: 5px;
+}
+
+#weatherInner {
+    background-color: #f2fdff;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+table {
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #101935;
+}
+
+.row {
+    background-color: white;
+}
+.btn-light {
+    float:right;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    background-color: white;
+    color: #101935;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.btn-light:hover {
+    background-color: #7e7f9a;
+    color: white;
+    border: none;
+}
+
+#welcome {
+    margin-right: 15px;
+}
+.btn-dark {
+    padding: 15px 50px 15px 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #101935;
+    color: white;
+}
+.btn-dark:hover {
+    background-color: #7e7f9a;
+}
+footer {
+    background-color: #f2fdff;
+    padding: 42px 0 30px 0;
+    text-align:center;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
