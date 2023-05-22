@@ -11,7 +11,10 @@ table, th, tr {
     border-collapse: collapse;
     text-align: left;
 }
-
+#javascript-logo {
+    padding-top: 5px;
+    width: 250px;
+}
 th {
     padding: 5px;
 }
