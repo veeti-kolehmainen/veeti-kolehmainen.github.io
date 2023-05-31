@@ -1,0 +1,21 @@
+h1 {
+    color: #ff0000;
+    font-size: 60px;
+    font-family: garamond;
+    text-align: center;
+    border: 2px solid  blue;
+    padding: 20px;
+    background-color: #d7d7d7;
+    margin-bottom: 100px;
+}
+
+img.small {
+    width: 300px;
+}
+img.large {
+    width: 525px;
+}
+
+.link {
+    text-align: center;
+}
