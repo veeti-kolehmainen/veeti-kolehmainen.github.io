@@ -1,0 +1,31 @@
+html {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100%;
+    font-size: 1.4rem;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.main {
+    padding: 2rem;
+}
+
+.intro {
+    text-align: center;
+}
+
+@media(min-width: 800px) {
+    body {
+        max-width: 60vw;
+        font-size: 1.8rem;
+    }
+}
+
+.dates {
+    background-color:cornsilk;
+    height: 80rem;
+}
