@@ -18,14 +18,18 @@ body {
     text-align: center;
 }
 
+.dates {
+    background-color:cornsilk;
+    height: 80rem;
+}
+
+li {
+    padding-top: 0.5rem;
+}
+
 @media(min-width: 800px) {
     body {
         max-width: 60vw;
         font-size: 1.8rem;
     }
-}
-
-.dates {
-    background-color:cornsilk;
-    height: 80rem;
 }
