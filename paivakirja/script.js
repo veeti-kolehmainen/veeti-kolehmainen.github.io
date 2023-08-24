@@ -1,2 +1,3 @@
-const list = document.getElementById("list")
-console.log(list.length)
+const list = document.querySelectorAll("li").length
+
+console.log(list)
