@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Tehtävälista</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>Tehtävälista</h1>
+        <label for="uusiTeht">Uusi tehtävä:</label>
+        <input type="text" name="uusiTeht" id="uusiTeht" class="form-control" placeholder="Kirjoita uusi tehtävä">
+        <button class="btn btn-primary" id="add-button">Lisää tehtävä</button>
+        <button class="btn btn-secondary" id="remove-button">Poista tehtävä</button>
+        <ul id="list" style="padding: 0; list-style-type: none;"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

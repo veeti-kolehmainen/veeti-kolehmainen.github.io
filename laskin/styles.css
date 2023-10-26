@@ -1,0 +1,40 @@
+body {
+    background-color: #B2B4B3;
+}
+
+.calculator {
+    width: 100%;
+    text-align: center;
+}
+
+.table1 {
+    display: inline-block;
+}
+
+td {
+    width: 20vw;
+}
+
+button {
+    margin: 1px;
+}
+
+.special {
+    width: 5vw;
+    height: 1px;
+}
+.equal {
+    height: 100%;
+    font-size: 50px;
+}
+
+.calc-button {
+    width: 100%;
+}
+
+.luksiaimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
