@@ -1,6 +1,6 @@
 body {
   padding: 2% 15% 2% 15%;
-  background-color: #FFF3CA;
+  background-color: #afb3b1;
 }
 h1, h3 {
   text-align:center;
@@ -10,20 +10,19 @@ p, a {
   font-family:Arial;
 }
 img {
-  float: right;
-  margin-top: -2%;
+  border-radius: 20px;
 }
 .main {
-  background-color: #FFFBF1;
+  background-color: #FFFFFF;
   padding: 20px;
-  outline: 2px solid black;
+  border-radius: 20px;
 }
+
 .profile {
-	float: right;
-	width: 30%;
-	background-color: #FFF3CA; 
+  width: 80%;
+	background-color: #cccccc;
 	padding: 5px 10px 5px 10px;
-	outline: 1px solid black;
+  border-radius: 10px;
 }
 #ohjelmointitaidot {
 	position:relative;
